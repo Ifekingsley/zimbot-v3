@@ -69,9 +69,9 @@ const setting = JSON.parse(fs.readFileSync('./apikey.json'))
 
 //buat info zvibhorani zivi
 limitawal = '100'
-botname = 'ZIM BOT INC'
-wm = 'ZIM BOT INC'
-global.reactmoji = '🇿🇼'
+botname = 'KINGSLEY BOT INC'
+wm = 'KINGSLEY BOT INC'
+global.reactmoji = '😍'
 limitCount = setting.limit
 
 //read database
@@ -4933,12 +4933,12 @@ hydratedFooterText: `${botname}`,
 hydratedButtons: [{
 urlButton: {
 displayText: 'SUBSCRIBE',
-url: 'https://www.youtube.com/c/DRIPSOFC'
+url: 'https://www.youtube.com/c/kingsley'
 }
 }, {
 urlButton: {
 displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v3'
+url: 'https://github.com/ife250/zimbot-v3'
 }
 }, {
 quickReplyButton: {
@@ -5041,7 +5041,7 @@ url: `${text}`
 }, {
 urlButton: {
 displayText: 'GITHUB',
-url: 'https://github.com/zim-bot/zimbot-v3'
+url: 'https://github.com/ife250/zimbot-v3'
 }
 }, {
 quickReplyButton: {
@@ -7482,12 +7482,12 @@ anu = `*✧ᴜᴘᴛɪᴍᴇ: ${runtime(process.uptime())}*
 let btn = [{
           urlButton: {
                   displayText: 'SUBSCRIBE',
-                  url: 'https://www.youtube.com/c/DRIPSOFC'
+                  url: 'https://www.youtube.com/c/kingsley'
           }
                             }, {
           urlButton: {
                   displayText: 'GITHUB',
-                  url: 'https://github.com/zim-bot/zimbot-v3'
+                  url: 'https://github.com/ife250/zimbot-v3'
           }
                             }, {
           quickReplyButton: {
