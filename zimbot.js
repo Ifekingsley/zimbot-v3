@@ -5361,7 +5361,7 @@ case 'mediafire': {
 if (!text) throw '*Enter a Link Query!*'
 if (!isUrl(args[0]) && !args[0].includes('mediafire.com')) throw '*The link you provided is not valid*'
 const baby1 = await mediafireDl(text)
-if (baby1[0].size.split('GB')[0] >= 900) return m.reply('*File Over Limit* '+util.format(baby1))
+if (baby1[0].size.split('MB')[0] >= 999) return m.reply('*File Over Limit* '+util.format(baby1))
 const result4 = `*▊▊▊MEDIAFIRE DL▊▊▊*
 				
 *Name* : ${baby1[0].nama}
@@ -5949,14 +5949,14 @@ case 'apk': case 'apkmod': case 'apkdl': {
 case 'donlod': {                
 if (isBan) throw mess.ban
                 if (!text) return m.reply(`Use${prefix + command} whatsapp`)
-                if (!isUrl(args[0]) && !args[0].includes('https://rexdl.com/'))
+                if (!isUrl(args[0]) && !args[0].includes('https://rexdl.com/?s='))
 if (!isInventoryLimit){ addInventoriLimit(m.sender) }
             if (isLimit < 5) return m.reply(mess.endLimit)
             kurangLimit(m.sender, 5)
             m.reply(`*5 limits used*`)
            let rex = require('./lib/ApkDown.js')
            rex.ApkDown(`${text}`).then(async (anu) => {        
-           if (anu[0].size.split('GB')[0] >= 950) return m.reply('*File Over Limit* '+util.format(anu))
+           if (anu[0].size.split('MB')[0] >= 999) return m.reply('*File Over Limit* '+util.format(anu))
            for (let i of anu) {    
            linkye = `*▊▊▊APK DOWNLOAD▊▊▊*\n\n*TITLE:* ${i.title}\n*UPDATE:* ${i.up}\n*VERSION:* ${i.vers}\n*FILESIZE:* ${i.size}\n*URL:* \n*DESCRIPTION:* ${i.desc}\n\n*ZIM BOT INC*`         
                 ZimBotInc.sendMessage(m.chat, { image: await getBuffer(i.thumb), jpegThumbnail: await getBuffer(i.thumb), caption: `${linkye}` }, { quoted: m })
