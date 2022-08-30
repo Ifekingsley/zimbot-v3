@@ -80,7 +80,7 @@ global.mess = {
     group: '*this feature is only for groups okay*',
     private: '*this feature can only used in dm okay*',
     bot: '*Special Features for User Bot Number okay*',
-    wait: '*whoa wait kingsley bot processing okay*',
+    wait: '*whoa wait kingsley bot processing 😎 relax*',
     endLimit: '*Brothers Daily Limit Has Expired, Type .buy limit amount limit to buy limit, Note: Limit will be reset every 12 hours*',
 }
 global.limitawal = {
@@ -97,8 +97,8 @@ global.limitawal = {
 }
 global.thumb = fs.readFileSync('./lib/hisoka.jpg')  
 global.bc = fs.readFileSync('./lib/bc.jpg')
-global.visoka = { url: 'https://tenor.com/bXLwm.gif' }
-global.vid = { url: 'https://tenor.com/bXLwm.gif' }
+global.visoka = { url: 'https://telegra.ph/file/e432d3479aafadcb172c5.mp4' }
+global.vid = { url: 'https://telegra.ph/file/e432d3479aafadcb172c5.mp4' }
 
 //—————「 Set Random Image Menu 」—————//
 
