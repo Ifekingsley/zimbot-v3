@@ -97,8 +97,8 @@ global.limitawal = {
 }
 global.thumb = fs.readFileSync('./lib/hisoka.jpg')  
 global.bc = fs.readFileSync('./lib/bc.jpg')
-global.visoka = { url: 'https://i.imgur.com/LbmTdhf.mp4' }
-global.vid = { url: 'https://i.imgur.com/LbmTdhf.mp4' }
+global.visoka = { url: 'https://tenor.com/bXLwm.gif' }
+global.vid = { url: 'https://tenor.com/bXLwm.gif' }
 
 //—————「 Set Random Image Menu 」—————//
 
