@@ -33,7 +33,7 @@ https://github.com/clhuang/heroku-buildpack-webp-binaries.git
 
 https://github.com/DuckyTeam/heroku-buildpack-imagemagick
 ```
-[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@IfeKingsley/KINGSLEY-BOT-INC-QR-2#index.js)
+[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://www.replit.com/@IfeKingsley/KINGSLEY-BOT-INC-QR-2#index.js)
 <img src="https://fontmeme.com/permalink/220116/0c42dc0b64931810388ba399da55e927.png" alt="backwoods-logo-font" border="0"></a>  
 
  ##  > THIS BOT CODED BY KINGSLEY: KINGSLEY-BOT INC 
